@@ -1,0 +1,25 @@
+{
+  "name": "ArcheDataJs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/boxerbucks/archeDataJs",
+  "authors": [
+    "Brad Pearson <brad@lynnhaven-ct.com>"
+  ],
+  "description": "A small data management library for javascript",
+  "main": "dataStore.js",
+  "keywords": [
+    "data"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-core": "~2.2.1"
+  }
+}
