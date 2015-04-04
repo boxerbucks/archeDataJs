@@ -21,12 +21,12 @@ There are features still to be implemented such as:
 * Auto creation of diff objects
 * Notification on parent objects on deletes and adds of children
 
-### Background
-The motivation of this project was to use the javascript Object.defineProperty prototype function to implement a change tracking and notification system for data trees. Data management across large projects can be a difficult thing to do successfully and this is my attempt at solving some of these issues based on experiences from large angular applications with big trees of data.
-
 Usage
 -----
-
 To run the tests, just do a bower install and open the SpecRunner in chrome. 
 
 To use the library, just include the dataStore.js file and use the DataStore object on the global scope.  
+
+Background
+----------
+The motivation of this project was to use the javascript Object.defineProperty prototype function to implement a change tracking and notification system for data trees. Data management across large projects can be a difficult thing to do successfully and this is my attempt at solving some of these issues based on experiences from large angular applications with big trees of data.
