@@ -15,7 +15,8 @@ All nodes defined on the archetype object are tracked as pristine or modified an
 
 All nodes defined on the archetype objects support the registration of callbacks that will fire with a change object when the object changes. By setting a function on the property to watch that callback will be fired with a change object when the object changes.
 
-
+ToDo
+-----
 There are features still to be implemented such as:
 * Re initialization of the tree
 * Auto creation of diff objects
